@@ -1,0 +1,2 @@
+class ResidenceStatus < ApplicationRecord
+end

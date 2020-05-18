@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  assisted_address: one
+  full_name: MyString
+  nick_name: MyString
+  cell_phone: MyString
+  phone: MyString
+  email: MyString
+  facebook: MyString
+  instagram: MyString
+  born_date: 2020-05-09
+  is_employed: false
+  is_receiving: false
+
+two:
+  assisted_address: two
+  full_name: MyString
+  nick_name: MyString
+  cell_phone: MyString
+  phone: MyString
+  email: MyString
+  facebook: MyString
+  instagram: MyString
+  born_date: 2020-05-09
+  is_employed: false
+  is_receiving: false

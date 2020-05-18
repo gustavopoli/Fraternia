@@ -1,0 +1,2 @@
+class AverageIncome < ApplicationRecord
+end

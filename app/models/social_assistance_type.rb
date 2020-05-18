@@ -1,0 +1,2 @@
+class SocialAssistanceType < ApplicationRecord
+end

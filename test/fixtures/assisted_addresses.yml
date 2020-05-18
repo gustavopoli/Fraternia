@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyString
+  number: MyString
+  district: one
+  city: one
+  first_assistance: 2020-05-09
+  last_assistance: 2020-05-09
+  first_interview: 2020-05-09
+  last_interview: 2020-05-09
+
+two:
+  name: MyString
+  address: MyString
+  number: MyString
+  district: two
+  city: two
+  first_assistance: 2020-05-09
+  last_assistance: 2020-05-09
+  first_interview: 2020-05-09
+  last_interview: 2020-05-09

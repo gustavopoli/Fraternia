@@ -1,0 +1,2 @@
+class SocialEntityType < ApplicationRecord
+end

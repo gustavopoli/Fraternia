@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  assisted_address: one
+  social_vulnerability_type: one
+  social_vulnerability_score: one
+  description: MyString
+
+two:
+  assisted_address: two
+  social_vulnerability_type: two
+  social_vulnerability_score: two
+  description: MyString

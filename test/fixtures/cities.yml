@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  state: one
+  name: MyString
+  population: 1
+  mayor: MyString
+  social_worker: MyString
+
+two:
+  state: two
+  name: MyString
+  population: 1
+  mayor: MyString
+  social_worker: MyString

@@ -1,0 +1,330 @@
+en:
+  activerecord:
+    models:
+      comment:
+        one: "Comment"
+        other: "Comments"
+      active_admin/comment:
+        one: "Comment"
+        other: "Comments"
+    attributes:
+      active_admin/comment:
+        author_type: "Author type"
+        body: "Body"
+        created_at: "Created"
+        namespace: "Namespace"
+        resource_type: "Resource type"
+        updated_at: "Updated"
+  active_admin:
+    dashboard: "Dashboard"
+    dashboard_welcome:
+      welcome: "Welcome to Active Admin. This is the default dashboard page."
+      call_to_action: "To add dashboard sections, checkout 'app/admin/dashboard.rb'"
+    view: "View"
+    edit: "Edit"
+    delete: "Delete"
+    delete_confirmation: "Are you sure you want to delete this?"
+    create_another: "Create another %{model}"
+    new_model: "New %{model}"
+    edit_model: "Edit %{model}"
+    delete_model: "Delete %{model}"
+    details: "%{model} Details"
+    cancel: "Cancel"
+    empty: "Empty"
+    previous: "Previous"
+    next: "Next"
+    download: "Download:"
+    has_many_new: "Add New %{model}"
+    has_many_delete: "Delete"
+    has_many_remove: "Remove"
+    move: "Move"
+    filters:
+      buttons:
+        filter: "Filter"
+        clear: "Clear Filters"
+      predicates:
+        contains: "Contains"
+        equals: "Equals"
+        starts_with: "Starts with"
+        ends_with: "Ends with"
+        greater_than: "Greater than"
+        less_than: "Less than"
+        gteq_datetime: "Greater or equal to"
+        lteq_datetime: "Lesser or equal to"
+        from: "From"
+        to: "To"
+    scopes:
+      all: "All"
+    search_status:
+      headline: "Search status:"
+      current_scope: "Scope:"
+      current_filters: "Current filters:"
+      no_current_filters: "None"
+    status_tag:
+      "yes": "Yes"
+      "no": "No"
+      "unset": "No"
+    main_content: "Please implement %{model}#main_content to display content."
+    logout: "Logout"
+    powered_by: "Gustavo Poli 2020"
+    sidebars:
+      filters: "Filters"
+      search_status: "Search Status"
+    pagination:
+      empty: "No %{model} found"
+      one: "Displaying <b>1</b> %{model}"
+      one_page: "Displaying <b>all %{n}</b> %{model}"
+      multiple: "Displaying %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> of <b>%{total}</b> in total"
+      multiple_without_total: "Displaying %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b>"
+      per_page: "Per page: "
+      entry:
+        one: "entry"
+        other: "entries"
+    any: "Any"
+    blank_slate:
+      content: "There are no %{resource_name} yet."
+      link: "Create one"
+    dropdown_actions:
+      button_label: "Actions"
+    batch_actions:
+      button_label: "Batch Actions"
+      default_confirmation: "Are you sure you want to do this?"
+      delete_confirmation: "Are you sure you want to delete these %{plural_model}?"
+      succesfully_destroyed:
+        one: "Successfully deleted 1 %{model}"
+        other: "Successfully deleted %{count} %{plural_model}"
+      selection_toggle_explanation: "(Toggle Selection)"
+      action_label: "%{title} Selected"
+      labels:
+        destroy: "Delete"
+    comments:
+      created_at: "Created"
+      resource_type: "Resource Type"
+      author_type: "Author Type"
+      body: "Body"
+      author: "Author"
+      add: "Add Comment"
+      delete: "Delete Comment"
+      delete_confirmation: "Are you sure you want to delete these comments?"
+      resource: "Resource"
+      no_comments_yet: "No comments yet."
+      author_missing: "Anonymous"
+      title_content: "Comments (%{count})"
+      errors:
+        empty_text: "Comment wasn't saved, text was empty."
+    devise:
+      username:
+        title: "Username"
+      email:
+        title: "Email"
+      subdomain:
+        title: "Subdomain"
+      password:
+        title: "Password"
+      password_confirmation:
+        title: "Confirm Password"
+      sign_up:
+        title: "Sign up"
+        submit: "Sign up"
+      login:
+        title: "Login"
+        remember_me: "Remember me"
+        submit: "Login"
+      reset_password:
+        title: "Forgot your password?"
+        submit: "Reset My Password"
+      change_password:
+        title: "Change your password"
+        submit: "Change my password"
+      unlock:
+        title: "Resend unlock instructions"
+        submit: "Resend unlock instructions"
+      resend_confirmation_instructions:
+        title: "Resend confirmation instructions"
+        submit: "Resend confirmation instructions"
+      links:
+        sign_up: "Sign up"
+        sign_in: "Sign in"
+        forgot_your_password: "Forgot your password?"
+        sign_in_with_omniauth_provider: "Sign in with %{provider}"
+        resend_unlock_instructions: "Resend unlock instructions"
+        resend_confirmation_instructions: "Resend confirmation instructions"
+    unsupported_browser:
+      headline: "Please note that ActiveAdmin no longer supports Internet Explorer versions 8 or less."
+      recommendation: "We recommend that you <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+      turn_off_compatibility_view: "If you are using IE 9 or later, make sure you <a href=\"https://support.microsoft.com/en-us/help/17471\">turn off \"Compatibility View\"</a>."
+    access_denied:
+      message: "You are not authorized to perform this action."
+    index_list:
+      table: "Table"
+      block: "List"
+      grid: "Grid"
+      blog: "Blog"
+
+
+  activerecord:
+    models:
+      social_entity_type:
+        one: "Tipo de Entidade Social"
+        other: "Tipos de Entidade Social"
+      country:
+        one: "País"
+        other: "Países"
+      state:
+        one: "Estado"
+        other: "Estados"
+      city:
+        one: "Cidade"
+        other: "Cidades"
+      district:
+        one: "Bairros"
+        other: "Bairros"
+      social_assistance_type:
+        one: "Tipo de Assistência Social"
+        other: "Tipos de Assitência Social"
+      social_entity_status:
+        one: "Status Entidade Social"
+        other: "Status Entidades Sociais"
+      social_entity:
+        one: "Entidade Social"
+        other: "Entidades Sociais"
+      social_vulnerability_type:
+        one: "Tipo de Vulnerabilidade Social"
+        other: "Tipos de Vulnerabilidade Social"
+      social_vulnerability_score:
+        one: "Nivel da Vulnerabilidade Social"
+        other: "Níveis das Vulnerabilidades Sociais"
+      assisted_address:
+        one: "Endereço Assistido"
+        other: "Endereços Assistidos"
+      assisted_resident:
+        one: "Morador Assistido"
+        other: "Moradores Assistidos"
+      assisted_vulnerability:
+        one: "Vulnerabilidade Assistida"
+        other: "Vulnerabilidades Assistidas"
+      profession:
+        one: "Profissão"
+        other: "Profissões"
+      marital_status:
+        one: "Estado Civil"
+        other: "Estados Civil"
+      benefit:
+        one: "Benefício"
+        other: "Benefícios"
+      average_income:
+        one: "Renda Média"
+        other: "Faixas de Renda Média"
+      residence_status:
+        one: "Status da Residência"
+        other: "Status da Residência"
+      phone_type:
+        one: "Tipo de Telefone"
+        other: "Tipos de Telefone"
+
+    attributes:
+      social_entity_type:
+        name: "Tipo da Entidade"
+        descrition: "Descrição"
+      country: 
+        code_number: "Cödigo Numérico"
+        code_string: "Código ISO"
+        name: "Nome do País"
+      state:
+        country: "País"
+        code: "UF"
+        name: "Estado"
+      city:
+        state: "Estado"
+        name: "Nome da Cidade"
+        population: "Qtd. Habitantes"
+        mayor: "Prefeito"
+        social_worker: "Assistente Social"
+      district:
+        city: "Cidade"
+        name: "Nome do Bairro"
+        description: "Detalhes do bairro"
+      social_assistance_type:
+        name: "Tipo de Assistência Social"
+        description: "Descrição"
+      social_entity_status:
+        name: "Status da Entidade Social"
+        is_active: "Entidade Ativa?"
+        description: "Descrição"
+      social_entity:
+        register_name: "Razão Social"
+        register_number: "Nro. de Registro"
+        social_name: "Nome Social"
+        social_entity_type: "Tipo de Entidade Social"
+        social_entity_status: "Status da Entidade"
+        address: "Endereço"
+        number: "Número"
+        district: "Bairro"
+        city: "Cidade"
+        referential_point: "Ponto de Referência"
+        phones: "Nro Telefones"
+        emails: "E-mails de contato"
+        web_site: "URL do site"
+        business_hours: "Hora de funcionamento"
+        fundation_date: "Data de fundação"
+        closing_date: "Data de encerramento"
+      social_vulnerability_type:
+        name: "Vulnerabilidade Social"
+        description: "Descrição da Vulnerabilidade"
+      social_vulnerability_score:
+        name: "Nível da Vulnerabilidade"
+        score: "Escala da Vulnerabilidade"
+        description: "Descrição do Nível"
+      assisted_address:
+        cpf: "CPF"
+        name: "Responsável pela Família"
+        born_date: "Data de Nascimento"
+        naturalness: "Naturalidade"
+        beginning_housing: "Data da vinda para Guaranésia"
+        marital_status: "Estado Civil"
+        spouse_name: "Nome Conjugue"
+        spouse_born_date: "Data Nascimento"
+        spouse_naturalness: "Naturalidade"
+        spouse_profession: "Profissão"
+        address: "Endereço"
+        number: "Número"
+        referential_point: "Ponto de Referência"
+        district: "Bairro"
+        city: "Cidade"
+        first_assistance: "Primeira Assistência"
+        last_assistance: "Ultima Assistência"
+        first_interview: "Primeira Entrevista"
+        last_interview: "Ultima Entrevista"
+        external_contact: "Contato fora da família"
+      assisted_resident:
+        cpf: "CPF"
+        is_employed: "Está empregado?"
+        assisted_address: "Endereço"
+        full_name: "Nome Completo"
+        nick_name: "Apelido"
+        cell_phone: "Nro. Celular"
+        phone: "Nro Telefone"
+        email: "e-mail"
+        facebook: "Facebook"
+        instagram: "Instagram"
+        is_employed: "Está empregado?"
+        is_receiving: "Pode receber benefícios?"
+      assisted_vulnerability:
+        assisted_address: "Endereço Assistido"
+        social_vulnerability_type: "Vulnerabilidade"
+        social_vulnerability_score: "Grau da Vulnerabilidade"
+        description: "Descrição"
+      profession:
+        name: "Profissão"
+      marital_status:
+        name: "Estado Civil"
+      benefit:
+        name: "Benefício"
+      average_income:
+        order: "Ordem (apresentação)"
+        rage: "Faixa de valor"
+      residence_status:
+        name: "Status da residência"
+      phone_type:
+        code: "Código"
+        name: "Tipo de Telefone"

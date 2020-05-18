@@ -1,0 +1,37 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  register_name: MyString
+  register_number: MyString
+  social_name: MyString
+  social_entity_type: one
+  social_entity_status: one
+  address: MyString
+  number: MyString
+  district: one
+  city: one
+  referential_point: MyString
+  phones: MyString
+  emails: MyString
+  web_site: MyString
+  business_hours: MyString
+  fundation_date: 2020-05-09
+  closing_date: 2020-05-09
+
+two:
+  register_name: MyString
+  register_number: MyString
+  social_name: MyString
+  social_entity_type: two
+  social_entity_status: two
+  address: MyString
+  number: MyString
+  district: two
+  city: two
+  referential_point: MyString
+  phones: MyString
+  emails: MyString
+  web_site: MyString
+  business_hours: MyString
+  fundation_date: 2020-05-09
+  closing_date: 2020-05-09

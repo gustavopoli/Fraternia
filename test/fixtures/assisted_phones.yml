@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  assisted_address: one
+  phone_type: one
+  number: MyString
+  notes: MyString
+
+two:
+  assisted_address: two
+  phone_type: two
+  number: MyString
+  notes: MyString

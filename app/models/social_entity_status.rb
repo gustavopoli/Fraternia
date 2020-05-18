@@ -1,0 +1,2 @@
+class SocialEntityStatus < ApplicationRecord
+end
